@@ -70,18 +70,6 @@ impl Game {
             players.push(edgar);
             let ray = Player::new_ray(0);
             players.push(ray);
-            let edgar = Player::new_edgar(1);
-            players.push(edgar);
-            let ray = Player::new_ray(1);
-            players.push(ray);
-            let edgar = Player::new_edgar(2);
-            players.push(edgar);
-            let ray = Player::new_ray(2);
-            players.push(ray);
-            let edgar = Player::new_edgar(3);
-            players.push(edgar);
-            let ray = Player::new_ray(3);
-            players.push(ray);
         }
 
         println!("\n\nHow many human players are playing? (0-8):");
